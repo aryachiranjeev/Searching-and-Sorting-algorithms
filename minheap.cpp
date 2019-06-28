@@ -81,7 +81,7 @@ void MinHeap :: MinHeapify(int i){
 	int smallest=i;
 
 	if(left<heap_size && harr[left]<harr[i]){
-		smallest=i;
+		smallest=left;
 	}
 
 	if(right<heap_size && harr[right]<harr[smallest]){
